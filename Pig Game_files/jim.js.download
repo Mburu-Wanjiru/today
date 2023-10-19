@@ -1,0 +1,30 @@
+'use strict';
+//selecting the score for player 1
+const score0element = document.querySelector('#score--0');
+//selecting the score for player 2
+const score1element = document.getElementById('score--1');
+//selecting the dice picture
+const diceelement = document.querySelector('.dice');
+//selecting the roll dice button
+const rolldicebutton = document.querrySelector('.btn--roll');
+//selecting the hold button
+const holdbutton = document.querrySelector('.btn--hold');
+//selecting the new game button
+const newgamebutton = document.querrySelector('.btn--new');
+//setting the initial score for player 1
+score0element.textContent = 0;
+//setting the initial score for player 2
+score1element.textContent = 0;
+//hiding the dice picture in the start of a game
+diceelement.classList.add('hidden');
+
+//implementing the roll functionality
+rolldicebutton.addEventListener('click', function () {
+  //generating the random dice roll
+  const dicenumber = Math.trunc(Math.random() * 6) + 1;
+
+  //display dice picture with accoredance to our random number
+  diceelement.classList.remove('hidden');
+  diceelement.src = `dice-${dicenumber}.png`;
+  //check score if is 1.....if true pass to next player
+});
