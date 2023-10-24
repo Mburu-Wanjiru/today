@@ -1,0 +1,121 @@
+.a0f6072e6a {
+    --button-background-color: #ededed;
+    --button-gradient: linear-gradient(#fbfbfb,#ededed);
+    --button-radius: var(--bui_border_radius_100);
+    --button-border-color: #d4d4d4;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 1;
+    transition: opacity .3s
+}
+
+.b9950da38e {
+    -webkit-margin-end: var(--bui_spacing_3x);
+    color: #333;
+    font-weight: 500;
+    margin-inline-end:var(--bui_spacing_3x);padding: 7px 0
+}
+
+.c3dc58c753 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -4px -7px 0 0;
+    padding: 0
+}
+
+.b10530769f {
+    align-items: flex-end;
+    display: flex;
+    margin: 4px 7px 0 0;
+    opacity: 1;
+    transition: opacity .3s
+}
+
+.de08d67391 {
+    opacity: 0
+}
+
+.a18321c478,.c3415d0f63 {
+    background: var(--button-gradient) var(--button-background-color);
+    border: 1px solid var(--button-border-color);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,30%),inset 0 1px 0 hsla(0,0%,100%,.7);
+    line-height: 18px
+}
+
+.c3415d0f63 {
+    -webkit-border-end: none;
+    border-end-start-radius: var(--button-radius);
+    border-inline-end:none;border-start-start-radius: var(--button-radius);
+    color: var(--bui_color_action_foreground);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-decoration: none
+}
+
+.b627a9077d {
+    font-size: 12px
+}
+
+.a18321c478 {
+    border-end-end-radius: var(--button-radius);
+    border-start-end-radius: var(--button-radius);
+    cursor: pointer;
+    padding: 10px 12px 6px
+}
+
+.fa2d52bd24 {
+    margin-right: var(--bui_spacing_1x);
+    vertical-align: calc(var(--bui_spacing_half)*-1)
+}
+
+.c67400ea74 ul li {
+    -webkit-margin-end: var(--bui_spacing_4x);
+    margin-inline-end:var(--bui_spacing_4x);max-width: 360px;
+    min-width: 291px
+}
+
+@media (min-width: 1024px) {
+    .c67400ea74 ul li {
+        max-width:none
+    }
+}
+
+@media (min-width: 1280px) {
+    .c67400ea74 ul li {
+        max-width:calc(25% - var(--bui_spacing_4x)*3/4)
+    }
+}
+
+.ca3eaa411f {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0
+}
+
+.e634ad9d44 {
+    align-items: center;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+    text-decoration: none
+}
+
+.bab56bdb3d {
+    -webkit-margin-after: 16px;
+    margin-block-end:16px}
+
+.a6e3d5aa36 {
+    color: inherit;
+    text-decoration: none
+}
+
+.f71668145d {
+    margin-block:var(--bui_spacing_6x);padding-block: 0
+}
+
+/*# sourceMappingURL=https://istatic.booking.com/internal-static/capla/static/css/59.d2329076.chunk.css.map*/
