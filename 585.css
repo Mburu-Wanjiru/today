@@ -1,0 +1,78 @@
+.b2605957f3 {
+    border: var(--bui_border_width_100) solid var(--bui_color_border_alt);
+    border-radius: var(--bui_border_radius_200);
+    display: flex;
+    overflow: hidden;
+    position: relative
+}
+
+.b2605957f3:after {
+    background: var(--bui_color_background_base);
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform: skew(-15deg,0deg);
+    transform-origin: bottom right;
+    width: 60%
+}
+
+[dir=rtl] .b2605957f3:after {
+    left: 50%;
+    right: auto;
+    transform: skew(15deg,0deg);
+    transform-origin: bottom left
+}
+
+.b3a9f2463f,.e427050e39 {
+    box-sizing: border-box;
+    flex: 1 0 50%;
+    position: relative
+}
+
+.e427050e39 {
+    padding: var(--bui_spacing_4x);
+    z-index: var(--bui_z_index_1)
+}
+
+.fac20fa92f {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.c084a9ffd6 {
+    height: 100%;
+    -o-object-position: right bottom;
+    object-position: right bottom;
+    width: 100%
+}
+
+.febb2f98a2 {
+    -webkit-margin-before: var(--bui_spacing_2x);
+    list-style: none;
+    margin: 0;
+    margin-block-start:var(--bui_spacing_2x);padding: 0
+}
+
+.d3afd87ce4 {
+    -webkit-margin-after: var(--bui_spacing_2x);
+    display: flex;
+    margin-block-end:var(--bui_spacing_2x)}
+
+.bc1f0ae6f8 {
+    -webkit-margin-end: var(--bui_spacing_2x);
+    margin-inline-end:var(--bui_spacing_2x)}
+
+.d0c1fa771b {
+    -webkit-margin-before: var(--bui_spacing_2x);
+    margin-block-start:var(--bui_spacing_2x)}
+
+.e02455895f {
+    margin-block: var(--bui_spacing_8x)
+}
+
+/*# sourceMappingURL=https://istatic.booking.com/internal-static/capla/static/css/585.4dbec094.chunk.css.map*/
